@@ -1,0 +1,44 @@
+input[type="text"]::placeholder,
+input[type="password"]::placeholder {
+  text-align: center;
+}
+
+.navbar {
+  --bs-navbar-padding-y: 0 !important;
+}
+
+.input_field {
+  width: 128px !important;
+}
+.button {
+  width: 130px !important;
+}
+.nav-text {
+  font-size: 15px;
+}
+.row {
+  --bs-gutter-x: 0 !important;
+}
+.navbar-two {
+  height: 12vh;
+}
+
+@media (max-width: 991px) {
+  .navbar-two {
+    height: min-content;
+  }
+}
+.navbar-two a {
+  color: #fff !important;
+}
+
+.carousel-item img {
+  height: 100vh !important;
+}
+
+.centered {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
